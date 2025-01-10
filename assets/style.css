@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White:hsl(0, 0%, 100%);
+    --Gray: hsl(0, 0%, 42%);
+    --darkGray: hsl(0, 0%, 7%);
+    --White:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    margin: 5px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    background-color: var(--Yellow);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height: auto;
+    padding: 16px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: #000 13px 5px 0px;
+    background-color: var(--White);
+}
+#image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#btn{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight:800;
+    background-color: var(--Yellow);
+    color: var(--darkGray);
+    align-self: flex-start;
+}
+span{
+    margin-top:10px;
+    margin-bottom:12px;
+    font-size: 0.8rem;
+    color: var(--Gray);
+    font-family: 'Figtree', sans-serif;
+    align-self: flex-start;
+}
+h1{
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 17px;
+    color: var(--darkGray);
+    font-family: 'Figtree', sans-serif;
+    align-self: flex-start;
+}
+p{
+    font-size: 16px;
+    color: var(--Gray);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.author-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start; 
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    padding-top: 9px;
+    align-self: flex-start;
+}
+h1:hover{
+    cursor: pointer;
+    color: var(--Yellow);
+}
+
